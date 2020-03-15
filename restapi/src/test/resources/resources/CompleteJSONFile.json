@@ -1,0 +1,32 @@
+[
+  {
+    "cnt": 1,
+    "name": "American",
+    "pk": 7
+  },
+  {
+    "cnt": 2,
+    "name": "Celebrities",
+    "pk": 3
+  },
+  {
+    "cnt": 1,
+    "name": "Female",
+    "pk": 2
+  },
+  {
+    "cnt": 1,
+    "name": "Language",
+    "pk": 8
+  },
+  {
+    "cnt": 1,
+    "name": "Male",
+    "pk": 1
+  },
+  {
+    "cnt": 1,
+    "name": "Region",
+    "pk": 9
+  }
+]

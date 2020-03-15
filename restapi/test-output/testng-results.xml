@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11295" started-at="2020-03-13T14:11:28Z" finished-at="2020-03-13T14:11:40Z">
+  <suite name="Default suite" duration-ms="3798" started-at="2020-03-15T11:48:10Z" finished-at="2020-03-15T11:48:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11295" started-at="2020-03-13T14:11:28Z" finished-at="2020-03-13T14:11:40Z">
-      <class name="restapi.LittleComplexJson">
-        <test-method status="PASS" signature="processComplexJson()[pri:0, instance:restapi.LittleComplexJson@1bce4f0a]" name="processComplexJson" duration-ms="11122" started-at="2020-03-13T14:11:28Z" finished-at="2020-03-13T14:11:40Z">
+    <test name="Default test" duration-ms="3798" started-at="2020-03-15T11:48:10Z" finished-at="2020-03-15T11:48:13Z">
+      <class name="testsUsingExternalJSONFiles.Library_AddBook_Using_External_JsonFile">
+        <test-method status="PASS" signature="addBook_Using_Extrnl_Json_File()[pri:0, instance:testsUsingExternalJSONFiles.Library_AddBook_Using_External_JsonFile@5c3bd550]" name="addBook_Using_Extrnl_Json_File" duration-ms="3750" started-at="2020-03-15T11:48:10Z" finished-at="2020-03-15T11:48:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- processComplexJson -->
-      </class> <!-- restapi.LittleComplexJson -->
+        </test-method> <!-- addBook_Using_Extrnl_Json_File -->
+      </class> <!-- testsUsingExternalJSONFiles.Library_AddBook_Using_External_JsonFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

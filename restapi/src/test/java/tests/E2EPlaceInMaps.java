@@ -1,4 +1,4 @@
-package restapi;
+package tests;
 
 import org.apache.commons.collections4.map.HashedMap;
 import org.testng.Assert;
@@ -6,11 +6,11 @@ import org.testng.ISuite;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
-import files.PayLoad;
 import io.restassured.RestAssured;
 import io.restassured.http.Header;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import utilities.PayLoad;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
