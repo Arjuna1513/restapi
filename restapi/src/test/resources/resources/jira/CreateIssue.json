@@ -1,0 +1,25 @@
+{
+  "fields": {
+    "project": {
+      "key": "MYF"
+    },
+    "summary": "Directory creation issue",
+    "issuetype": {
+      "name": "Bug"
+    },
+    "assignee": {
+      "name": "jira"
+    },
+    "reporter": {
+      "name": "jira"
+    },
+    "priority": {
+      "name": "High"
+    },
+    "labels": [
+      "bugfix",
+      "blitz_test"
+    ],
+    "description": "Not able to create an account with proper details"
+  }
+}
