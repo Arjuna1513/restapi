@@ -24,7 +24,7 @@ public class Library_AddBook_Using_External_JsonFile
 		
 		RestAssured.baseURI = "http://216.10.245.166";
 		Response response = given().headers(hMap).
-		body(Reusable_Methods.convertRawJsonToString("./src/test/resources/resources/addBook.json")).
+		body(Reusable_Methods.convertRawJsonToString("./src/test/resources/resources/LibraryAddBook.json")).
 		when().post("Library/Addbook.php").
 		then().extract().response();
 		

@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import io.restassured.path.json.JsonPath;
 import utilities.PayLoad;
 
-public class JSONArrayEx2 
+public class EmployeeJsonEx1 
 {
 	@Test
 	public void processJsonArray()
