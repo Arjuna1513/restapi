@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testsUsingExternalJSONFiles.Library_AddBook_Using_External_JsonFile">
+      <class name="responseSpecificationBuilder.RequestSpecBuilder_Exercise">
         <methods>
-          <include name="addBook_Using_Extrnl_Json_File"/>
+          <include name="reqSpecBuilder"/>
         </methods>
-      </class> <!-- testsUsingExternalJSONFiles.Library_AddBook_Using_External_JsonFile -->
+      </class> <!-- responseSpecificationBuilder.RequestSpecBuilder_Exercise -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,8 @@
+{
+    "body": "I am testing the wether I am able to add a comment to an existing issue or not.",
+    "visibility": 
+    {
+        "type": "role",
+        "value": "Administrators"
+    }
+}

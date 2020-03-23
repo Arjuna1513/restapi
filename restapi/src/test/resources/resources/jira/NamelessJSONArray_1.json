@@ -1,0 +1,14 @@
+[
+	 {
+	    "id": "1",
+	    "applicationId": "ABC"
+	 }, 
+	 {
+    "id": "2",
+    "applicationId": "CDE"
+     }, 
+     {
+    "id": "3",
+    "applicationId": "XYZ"
+    }
+]

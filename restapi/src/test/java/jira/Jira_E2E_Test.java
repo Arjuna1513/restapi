@@ -8,8 +8,10 @@ import static io.restassured.RestAssured.*;
 
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
+import org.json.JSONArray;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -86,6 +88,10 @@ public class Jira_E2E_Test
 		then().extract().response();
 		
 		Assert.assertEquals(response.getStatusCode(), 404);
+		List<Object> list = response.jsonPath().getList("errorMessages");
+		JSONArray json = new JSONArray(list);
+		System.out.println(json.getString(0));
+		Assert.assertEquals(json.getString(0), "Issue Does Not Exist");
 	}
 	
 	
